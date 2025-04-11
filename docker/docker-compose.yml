@@ -4,8 +4,7 @@ services:
 
   dev_env:
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: .      
     image: ${APP}-dev-img
     container_name: ${APP}-dev-container
     user: ubuntu

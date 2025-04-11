@@ -4,6 +4,8 @@
     "service": "dev_env",
     "workspaceFolder": "/home/ubuntu/workspace",
     "shutdownAction": "stopCompose",
+    "remoteUser": "ubuntu",
+    "containerUser": "ubuntu",
     "features": {
       "ghcr.io/devcontainers/features/git:1": {}
     },
